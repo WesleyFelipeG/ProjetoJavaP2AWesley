@@ -1,7 +1,8 @@
 public class Cachorro extends Animal {
-    public Cachorro(String nome) {
-        super(nome);
+    public Cachorro(String nome, int idade) {
+        super(nome, idade);
     }
+
 
     @Override
     public String fazerSom() {
@@ -10,6 +11,6 @@ public class Cachorro extends Animal {
 
     @Override
     public String realizarAcao() {
-        return "Está correndo";
+        return " está correndo";
     }
 }

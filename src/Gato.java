@@ -1,6 +1,6 @@
 public class Gato extends Animal {
-    public Gato(String nome) {
-        super(nome);
+    public Gato(String nome, int idade) {
+        super(nome, idade);
     }
 
     @Override
@@ -10,6 +10,6 @@ public class Gato extends Animal {
 
     @Override
     public String realizarAcao() {
-        return "Está dormindo";
+        return " está dormindo";
     }
 }
